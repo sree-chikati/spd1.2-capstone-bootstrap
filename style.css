@@ -1,0 +1,14 @@
+.intro{
+    background-color: aliceblue;
+}
+
+.hero-background-img {
+    background-image: url("./images/camera1.jpg");
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-top:200px;
+    padding-bottom:200px;
+  }
