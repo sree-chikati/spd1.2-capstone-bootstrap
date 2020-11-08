@@ -19,10 +19,6 @@ body {
 
 
 /*============= NAVIGATION =============*/
-.navbar-brand img {
-  height: 3rem;
-}
-
 .navbar {
   font-size: 1rem;
   font-weight: 600;
@@ -53,9 +49,32 @@ body {
 }
 
 
-
 /*============= CAROUSEL =============*/
+#carousel {
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1);
+}
 
+.carousel-inner {
+  max-height: 38rem!important;
+}
+/*---Change Carousel Transition Speed --*/
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  transition: transform 1.2s ease;
+}
+
+.carousel-control-next, 
+.carousel-control-prev{
+  color:#918151;
+  opacity: 5;
+}
+
+.carousel-control-next:hover, 
+.carousel-control-prev:hover{
+  color:  white;
+  background-color: #918151;
+}
 
 
 /*===== FIXED BACKGROUND IMG =====*/
