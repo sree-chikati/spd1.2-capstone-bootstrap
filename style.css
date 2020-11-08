@@ -77,6 +77,58 @@ body {
 }
 
 
+/*-- Carousel Content --*/
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-transform: uppercase;
+  
+}
+
+.bg-custom {
+  background-color: #918151d8;
+  border-radius: 1rem;
+}
+
+.carousel-caption h1{
+  font-size: 2.2rem;
+  color: white;
+}
+
+.carousel-caption h2{
+  font-size: 1.5rem;
+  color: white;
+}
+
+.border-primary {
+  border-top: 0.2rem solid black!important;
+}
+
+.carousel-caption h3{
+  font-size: 1.2rem;
+  color: white;
+}
+
+.btn-lg {
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 1rem;
+  border-width: medium;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: white!important;
+  color: black;
+  border: 0.05rem solid white!important;
+}
+
+.ansel-quote i{
+  text-transform: none;
+}
+
+
 /*===== FIXED BACKGROUND IMG =====*/
 
 
