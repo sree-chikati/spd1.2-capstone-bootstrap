@@ -184,6 +184,10 @@ a:hover{
   padding: 3rem;
 }
 
+.photo h1 {
+  color: #918151;
+}
+
 .photo button {
   margin: 0.5rem;
 }
