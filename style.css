@@ -55,7 +55,7 @@ body {
 }
 
 .carousel-inner {
-  max-height: 38rem!important;
+  max-height: 150vh!important;
 }
 /*---Change Carousel Transition Speed --*/
 .carousel-item-next,
@@ -73,7 +73,6 @@ body {
 .carousel-control-next:hover, 
 .carousel-control-prev:hover{
   color:  white;
-  background-color: #918151;
 }
 
 
@@ -129,11 +128,37 @@ body {
 }
 
 
-/*===== FIXED BACKGROUND IMG =====*/
+/*===== ABOUT US =====*/
+.about {
+  background: #918151;
+  padding: 1rem 0;
+}
 
+.about-content {
+  background-color: white;
+}
 
 
 /*-- Emoji Navbar --*/
+.timeline {
+  min-height: 0!important;
+  padding: .4rem 0!important;
+  background:black!important;
+  text-decoration: none;
+}
+.timeline:hover {
+  background:#918151!important;
+}
+.timeline .fa-film,
+.timeline p{
+  margin: 0 auto;
+  color: white;
+  font-size: 2rem;
+}
+a:hover{
+  text-decoration: none;
+}
+
 
 
 
@@ -149,11 +174,25 @@ body {
 
 /* Devices under 1199px (xl) */
 @media (max-width: 1199.98px) {
+  .carousel-caption h1{
+    font-size: 2.8rem;
+  }
+  .carousel-caption h3{
+    font-size: 1.8rem;
+  }
 
 }
-/* Devices under 768px (md) */
-@media (max-width: 767.98px) {
-
+/* Devices under 992px (lg) */
+@media (max-width: 991.98px) {
+  .carousel-caption h1{
+    font-size: 2.5rem;
+  }
+  .carousel-caption h3{
+    font-size: 1.5rem;
+  }
+  .bt-lg{
+    font-size: 0.95rem;
+  }
 }
 
 
