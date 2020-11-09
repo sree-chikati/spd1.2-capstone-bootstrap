@@ -138,7 +138,6 @@ body {
   background-color: white;
 }
 
-
 /*-- Emoji Navbar --*/
 .timeline {
   min-height: 0!important;
@@ -160,6 +159,30 @@ a:hover{
 }
 
 
+/*===== FIXED BACKGROUND IMG =====*/
+.fixed {
+  background-image: url('./images/cam3.png');
+  position: fixed;
+}
+
+.fixed-background {
+  padding: 10rem 0;
+}
+
+.fixed-background h1,
+.fixed-background h3{
+  color: white;
+}
+
+.fixed-content {
+  background:#918151;
+  padding: 1rem;
+}
+
+/*===== PHOTOGRAPHERS =====*/
+img{
+  border-radius: 1rem;
+}
 
 
 /*============= FOOTER =============*/
