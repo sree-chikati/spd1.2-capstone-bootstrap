@@ -55,7 +55,7 @@ body {
 }
 
 .carousel-inner {
-  max-height: 150vh!important;
+  max-height: 90vh!important;
 }
 /*---Change Carousel Transition Speed --*/
 .carousel-item-next,
@@ -180,8 +180,27 @@ a:hover{
 }
 
 /*===== PHOTOGRAPHERS =====*/
-img{
+.photo {
+  padding: 3rem;
+}
+
+.photo button {
+  margin: 0.5rem;
+}
+
+.photo button:hover {
+  background:#918151!important;
+  color: white!important;
+}
+
+.photo img{
   border-radius: 1rem;
+}
+
+.modal-body blockquote {
+  background:#918151;
+  color: white!important;
+  padding: 1rem;
 }
 
 
