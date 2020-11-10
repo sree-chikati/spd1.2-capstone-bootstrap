@@ -207,12 +207,48 @@ a:hover{
   padding: 1rem;
 }
 
+/*============= BLOG CAROUSEL =============*/
+.guide {
+  background: #918151;
+  padding: 1rem 0;
+}
+
+.guide-content {
+  background-color: white;
+}
+
+.articles, .videos{
+  color: #918151;
+}
+
+.fa-chevron-circle-down {
+  color: black;
+}
+
+
 
 /*============= FOOTER =============*/
 
 
 
-/*============= SOCKET =============*/
+/*============= CONTACT =============*/
+.contact {
+  background-color: #918151;
+  padding: 1rem 5rem;
+  margin: 2rem;
+}
+
+.contact h1{
+  color: white;
+}
+
+.contact p{
+  color: black;
+}
+
+.contact-item {
+  color: black;
+}
 
 
 
