@@ -226,11 +226,6 @@ a:hover{
 }
 
 
-
-/*============= FOOTER =============*/
-
-
-
 /*============= CONTACT =============*/
 .contact {
   background-color: #918151;
@@ -250,6 +245,48 @@ a:hover{
   color: black;
 }
 
+.send {
+  color: white!important;
+}
+
+/*============= FOOTER =============*/
+footer{
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+  footer h3{
+      color: white;
+      font-size: 15px;
+      text-transform: uppercase;
+  }
+
+  footer p{
+      padding: 1rem;
+      text-transform: uppercase;
+  }
+
+  footer span{
+      color:#918151;
+  }
+
+  .github, .instagram{
+      color: white;
+      text-decoration: none;
+      padding: 1rem 1rem 0 1rem;
+  }
+
+
+  .github:hover, .instagram:hover{
+      color: #918151;
+  }
 
 
 /*============= MEDIA QUERIES =============*/
