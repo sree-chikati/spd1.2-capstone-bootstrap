@@ -23,6 +23,7 @@ This Capstone Project contains all of the following requirements: <br />
  
  ## Website
  This is the [GitHub Live website](https://sree-chikati.github.io/spd1.2-capstone-bootstrap/)
+ <br /><br />
  These are the Wireframes for the website:
  ![Home Page](https://github.com/sree-chikati/spd1.2-capstone-bootstrap/blob/main/images/wireframes/home%20page.png)
  <br />
