@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film Photography</title>
+    <link class = "tab-icon" rel="shortcut icon" href="images/camera-logo.png">
+
+     <!-- BOOTSTRAP STYLESHEET LINK-->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+     <!-- BOOTSTRAP THEME -->
+     <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+     <!-- CUSTOM STYLES -->
+     <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+    <!--  NAV BAR -->
+    <nav class="navbar bg-light navbar-light navbar-expand-lg">
+		<div class="container">
+			<a href="index.html" class="navbar-brand">
+                <i class="fas fa-camera-retro fa-2x"></i>
+            </a>
+		  
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a href="index.html" class = "nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="index.html#about" class = "nav-link">About</a></li>
+                    <li class="nav-item"><a href="photo.html" class = "nav-link">Photographers</a></li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="begDrop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Beginner's Guide
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="begDrop">
+                        <a class="dropdown-item" href="index.html#articles">Articles</a>
+                        <a class="dropdown-item" href="index.html#videos">Videos</a>
+                        </div>
+                    </li>
+
+					<li class="nav-item"><a href="#contact" class = "nav-link">Contact Us</a></li>
+				</ul>
+
+			</div>
+		</div>
+    </nav>
+
+    <!-- CONTACT -->
+    <section class="mb-4 contact" id="contact">
+      <!--Section heading-->
+      <h1 class="h1-responsive font-weight-bold text-center my-4">Contact us</h1>
+      <!--Section description-->
+      <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. We will respond back as soon as we can :)</p>
+
+      <div class="row">
+          <!--Grid column-->
+          <div class="col-md-12">
+              <form id="contact-form" name="contact-form">
+
+                  <!--Grid row-->
+                  <div class="row">
+
+                      <!--Grid column-->
+                      <div class="col-md-6">
+                          <div class="md-form mb-0">
+                              <input type="text" id="name" class="form-control">
+                              <label for="name" class="contact-item">Your name</label>
+                          </div>
+                      </div>
+                      <!--Grid column-->
+
+                      <!--Grid column-->
+                      <div class="col-md-6">
+                          <div class="md-form mb-0">
+                              <input type="text" id="email" class="form-control">
+                              <label for="email" class="contact-item">Your email</label>
+                          </div>
+                      </div>
+                      <!--Grid column-->
+
+                  </div>
+                  <!--Grid row-->
+
+                  <!--Grid row-->
+                  <div class="row">
+                      <div class="col-md-12">
+                          <div class="md-form mb-0">
+                              <input type="text" id="subject" class="form-control">
+                              <label for="subject" class="contact-item">Subject</label>
+                          </div>
+                      </div>
+                  </div>
+                  <!--Grid row-->
+
+                  <!--Grid row-->
+                  <div class="row">
+
+                      <!--Grid column-->
+                      <div class="col-md-12">
+
+                          <div class="md-form">
+                              <textarea type="text" id="message" rows="2" class="form-control md-textarea"></textarea>
+                              <label for="message" class="contact-item">Your message</label>
+                          </div>
+
+                      </div>
+                  </div>
+                  <!--Grid row-->
+
+              </form>
+
+              <div class="text-center text-md-left">
+                  <a class="send btn btn-primary">Send</a>
+              </div>
+              <div class="status"></div>
+          </div>
+          <!--Grid column-->
+      </div>
+    </section>
+    <!--End Contact-->
+
+    <!--FOOTER-->  
+    <footer>
+        <h3>Film Photography by <span>Sree Chikati</span></h3>
+        <p> Contact:</p>
+        <div id = "find">
+            <a href="https://github.com/sree-chikati" class="github" title="Github">
+                <i class="fa fa-github fa-3x"></i>
+            </a>
+            <a href="https://www.instagram.com/sreechikati/" class="instagram" title="Instagram">
+                <i class="fa fa-instagram fa-3x"></i>
+            </a>
+        </div>
+         
+      </footer>
+    
+
+
+
+<!-- SCRIPT FOR FONT AWESOME -->
+<script src="https://kit.fontawesome.com/2cf12949d8.js" crossorigin="anonymous"></script>
+<!-- jQuery first-->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<!--Popper.js-->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<!--Bootstrap JS-->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

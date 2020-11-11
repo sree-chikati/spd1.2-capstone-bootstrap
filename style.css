@@ -26,6 +26,7 @@ body {
   padding: 0.5rem;
   box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
   z-index:1;
+  border: none;
 }
 
 .fa-camera-retro:hover {
@@ -158,27 +159,6 @@ a:hover{
   text-decoration: none;
 }
 
-
-/*===== FIXED BACKGROUND IMG =====*/
-.fixed {
-  background-image: url('./images/cam3.png');
-  position: fixed;
-}
-
-.fixed-background {
-  padding: 10rem 0;
-}
-
-.fixed-background h1,
-.fixed-background h3{
-  color: white;
-}
-
-.fixed-content {
-  background:#918151;
-  padding: 1rem;
-}
-
 /*===== PHOTOGRAPHERS =====*/
 .photo {
   padding: 3rem;
@@ -204,6 +184,16 @@ a:hover{
 .modal-body blockquote {
   background:#918151;
   color: white!important;
+  padding: 1rem;
+}
+
+/*-- Photo Info --*/
+.photo-info span{
+  color: #918151;
+}
+
+.photo-info p{
+  color: black;
   padding: 1rem;
 }
 
@@ -247,6 +237,16 @@ a:hover{
 
 .send {
   color: white!important;
+}
+
+/* Contact Info */
+.contact-info {
+  background: #918151;
+  padding: 1rem 0;
+}
+
+.contact-content {
+  background-color: white;
 }
 
 /*============= FOOTER =============*/
